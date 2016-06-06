@@ -33,3 +33,5 @@ You can configure sizes under `media_cropping` node in `media_cropping.yml` that
             icon:   { width: 55 , height: 55 , quality: 90}
             small:  { width: 100 , height: 100 , quality: 90}
             banner: { width: 1366 , height: 320 ,quality: 90}
+
+Lastly update database `app/console doctrine:schema:update --force` or use mediacropping.sql file
