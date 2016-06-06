@@ -1,4 +1,4 @@
 services:
-#    media_cropping.example:
-#        class: Media\CroppingBundle\Example
-#        arguments: [@service_id, "plain_value", %parameter%]
+    traffic.parameters.configuration:
+        class: Media\CroppingBundle\Configuration\Configuration
+        arguments: [ '@service_container']
