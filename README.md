@@ -1,7 +1,7 @@
 # Sonata-Media-Crop
 
 This Bundle user jcrop library for image cropping and needs FOS Js Routing bundle for routes in js file
-=======
+
 This Bundle needs FOS Js Routing bundle for routes in js file
 
 Import configuration for this bundle in `config.yml`
