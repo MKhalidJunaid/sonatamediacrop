@@ -1,0 +1,276 @@
+.icon-large {
+    background-image: url("/img/glyphicons.png");
+    background-position: 24px 24px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    vertical-align: text-bottom;
+    width: 28px;
+    cursor: pointer;
+}
+
+.collapsible_sales_filter {
+    float: right;
+    padding: 10px;
+}
+
+.icon-large.icon-minus-sign {
+    background-position: -138px -276px;
+}
+
+.icon-large.icon-plus-sign {
+    background-position: -138px -240px;
+}
+
+.filter-custom-bg {
+    float: left;
+    height: 100% !important;
+    background: #fff;
+    margin-bottom: 40px;
+}
+
+.filter-custom-bg .reports_filter_controls {
+    clear: left;
+    float: none;
+    margin: 10px 0 10px 0;
+}
+
+.filter_container {
+    display: none;
+}
+
+.skin-black .sidebar {
+    height: auto;
+}
+
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable.ui-resizable {
+    background: #fff;
+}
+
+.ui-dialog-content.ui-widget-content {
+    color: #000;
+}
+
+.thumbs_container {
+    width: 100%;
+}
+
+.thumbs_container .thumbs .img {
+    border: 1px solid #000;
+    border-radius: 5px;
+    height: 65px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.thumbs_container .thumbs .title {
+    color: #000;
+    font-size: 10px;
+    font-weight: bold;
+    height: 20%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.thumbs_container .thumbs .select_media_controls {
+    background: #00a65a;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 50%;
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.thumbs .btn.btn-success {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.thumbs_container .thumbs .select_media_controls:hover {
+    background: #008d4c;
+}
+
+.thumbs .form-control {
+    height: 15%;
+}
+
+.thumbs_container .thumbs .selected {
+    float: right;
+    margin: 10px 5px 5px;
+}
+
+.thumbs_container .thumbs {
+    border: 1px solid #CCC;
+    border-radius: 8px;
+    float: left;
+    margin: 5px;
+    overflow: hidden;
+    width: 10%;
+    height: 250px;
+    padding: 1%;
+}
+
+.thumbs_sort_container.ui-dialog-content.ui-widget-content {
+    background: none repeat scroll 0 0 #333;
+    width: 100%;
+}
+
+.thumbs_sort_container .thumbs .img {
+    border: 1px solid #000;
+    float: left;
+    height: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 40%;
+}
+
+.thumbs_sort_container .thumbs .title {
+    color: #fff;
+    float: left;
+    height: 45px;
+    overflow: hidden;
+    padding-left: 10px;
+    width: 40%;
+}
+
+.thumbs_sort_container .thumbs {
+    /* border: 2px solid #44294d;*/
+    border-radius: 8px;
+    float: left;
+    height: 65px;
+    margin: 5px;
+    overflow: hidden;
+    padding: 1%;
+    width: 80%;
+    background-color: #444;
+    color: #fff;
+    position: relative;
+}
+
+.thumb_handle.ui-sortable-handle {
+    float: left;
+    height: 100%;
+    width: 20%;
+}
+
+#crop_image {
+    display: none;
+}
+
+.ui-dialog-content #crop_image {
+    display: block;
+}
+
+.crop_manager {
+    color: #000;
+}
+
+.crop_manager .thumbs {
+    cursor: pointer;
+}
+
+#crop_thumbs_container .thumbs.crop_sizes {
+    height: auto;
+    width: 11.5%;
+    /* padding: 0%;*/
+}
+
+#already_cropped_media .thumbs.cropped_sizes {
+    height: auto;
+    /*padding: 5px;*/
+    width: 11.5%;
+}
+
+#crop_thumbs_container.thumbs_container {
+    float: left;
+    padding: 0%;
+    width: 100%;
+}
+
+#already_cropped_media.thumbs_container {
+    float: left;
+    padding: 0%;
+    width: 100%;
+}
+
+.thumbs.crop_sizes > span, .thumbs.cropped_sizes > span {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#image_container.image_container {
+    float: left;
+    width: 100%;
+    background: #333;
+}
+
+#crop_thumbs_container .thumbs.crop_sizes.selected, #already_cropped_media .thumbs.cropped_sizes.selected {
+    zoom: 1;
+    filter: alpha(opacity=45);
+    opacity: 0.45;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -ms-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+    background: #333;
+}
+
+#crop_thumbs_container .thumbs.crop_sizes:hover, #already_cropped_media .thumbs.cropped_sizes:hover {
+    box-shadow: 3px 3px 15px #666;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    /*Opacity*/
+    zoom: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.thumbs.cropped_sizes > img {
+    height: 92px;
+    width: 100%;
+}
+
+.crop_manager .thumbs_container {
+    width: 100%;
+}
+
+.thumbs.crop_sizes > img {
+    width: 100%;
+}
+
+.loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 9999;
+    color: white;
+}
+
+.loader > img {
+    margin: 25% 45% 0;
+}
+
+body.fixed > .header {
+    z-index: 1;
+}
+
+#image_container > div {
+    padding: 2%;
+}

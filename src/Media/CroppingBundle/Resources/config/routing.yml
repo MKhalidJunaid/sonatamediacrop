@@ -1,0 +1,16 @@
+media_cropping_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: MediaCroppingBundle:Default:index }
+
+media_cropping_image:
+    path:      /media-cropping-image/{id}
+    defaults:  { _controller: MediaCroppingBundle:Crop:index }
+    options:
+        expose: true
+
+
+media_cropping_save_image:
+    path:      /media-cropping-save-image/{id}/{entity}/{entityType}
+    defaults:  { _controller: MediaCroppingBundle:Crop:save }
+    options:
+        expose: true

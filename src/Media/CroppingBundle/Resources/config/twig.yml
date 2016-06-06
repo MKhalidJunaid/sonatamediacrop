@@ -1,0 +1,27 @@
+services:
+
+#
+    traffic.twig.media_url_extension:
+        class: Media\CroppingBundle\Twig\MediaUrlExtension
+        arguments: [ '@service_container'  ]
+        tags:
+            - { name: twig.extension }
+#
+#    traffic.twig.json_decode:
+#        class: Traffic\FrontBundle\Twig\JsonDecodeExtension
+#        arguments: [ '@service_container'  ]
+#        tags:
+#            - { name: twig.extension }
+
+
+
+    traffic.twig.get.cropped.image:
+        class: Media\CroppingBundle\Twig\CroppedImage
+        arguments: [ '@service_container'  ]
+        tags:
+            - { name: twig.extension }
+    traffic.twig.entity.name:
+        class: Media\CroppingBundle\Twig\EntityNameExtension
+        arguments: [ '@service_container'  ]
+        tags:
+            - { name: twig.extension }
