@@ -1,6 +1,7 @@
-# Sonata-Media-Crop
+# Sonata Media Crop
 
-This Bundle user jcrop library for image cropping and needs FOS Js Routing bundle for routes in js file
+This Bundle uses jcrop library for image cropping and needs FOS Js Routing bundle for routes in js file 
+MediaCroppingBundle extends bundle ApplicationSonataMediaBundle make sure you have this extended bundle
 
 This Bundle needs FOS Js Routing bundle for routes in js file
 
@@ -34,4 +35,4 @@ You can configure sizes under `media_cropping` node in `media_cropping.yml` that
             small:  { width: 100 , height: 100 , quality: 90}
             banner: { width: 1366 , height: 320 ,quality: 90}
 
-Lastly update database `app/console doctrine:schema:update --force` or use mediacropping.sql file
+Lastly assetic dump and update database `app/console doctrine:schema:update --force` or use mediacropping.sql file
