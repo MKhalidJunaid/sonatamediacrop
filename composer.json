@@ -9,7 +9,7 @@
 		"friendsofsymfony/jsrouting-bundle" : "dev-master"
 	},
 	"autoload": {
-		"psr-0": { "Media\\": "" }
+		"psr-0": { "Media\\": "src/" }
 	},
 	"branch-alias": {
 		"dev-master": "master"
