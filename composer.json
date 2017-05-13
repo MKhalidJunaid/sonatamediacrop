@@ -1,0 +1,16 @@
+{
+	"name": "dianuj89/Sonata-Media-Crop",
+	"type": "symfony-bundle",
+	"description": "This Bundle uses jcrop library for image cropping and needs FOS Js Routing bundle for routes in js file MediaCroppingBundle extends bundle ApplicationSonataMediaBundle make sure you have this extended bundle",
+	"homepage": "https://github.com/dianuj89/Sonata-Media-Crop",
+	"license": "MIT",
+	"require": {
+		"php": ">=7.0",
+		"friendsofsymfony/jsrouting-bundle" : "dev-master"
+	},
+	"target-dir": "src",
+		"branch-alias": {
+		"dev-master": "master"
+	},
+	"prefer-stable": true
+}
