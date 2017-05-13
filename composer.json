@@ -8,8 +8,10 @@
 		"php": ">=7.0",
 		"friendsofsymfony/jsrouting-bundle" : "dev-master"
 	},
-	"target-dir": "src",
-		"branch-alias": {
+	"autoload": {
+		"psr-0": { "Media\\": "" }
+	},
+	"branch-alias": {
 		"dev-master": "master"
 	},
 	"prefer-stable": true
