@@ -17,6 +17,5 @@
 	},
 	"branch-alias": {
 		"dev-master": "master"
-	},
-	"prefer-stable": true
+	}
 }
